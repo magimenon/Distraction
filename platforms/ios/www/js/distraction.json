@@ -1,0 +1,65 @@
+{
+   "cnt": 10,
+    "list": [
+        {
+            "dt1": "Jan 26",
+            "dt2": "Feb 01",
+            "primary": "Manish - Prithvi",
+            "backup": "Ganesh - Ankush"
+        },
+        {
+            "dt1": "Feb 02",
+            "dt2": "Feb 08",
+            "primary": "Ganesh - Ankush",
+            "backup": "Vidhi - Uma"
+        },
+        {
+            "dt1": "Feb 09",
+            "dt2": "Feb 15",
+            "primary": "Vidhi - Uma",
+            "backup": "Niyati - Prithvi"
+        },
+        {
+            "dt1": "Feb 16",
+            "dt2": "Feb 22",
+            "primary": "Niyati - Prithvi",
+            "backup": "Praveen - Tomila"
+        },
+        {
+            "dt1": "Feb 23",
+            "dt2": "Mar 01",
+            "primary": "Praveen - Tomila",
+            "backup": "Prajeesh - Prateek"
+        },
+        {
+            "dt1": "Mar 02",
+            "dt2": "Mar 08",
+            "primary": "Prajeesh - Prateek",
+            "backup": "Sreenivas - Kyle"
+        },
+        {
+            "dt1": "Mar 09",
+            "dt2": "Mar 15",
+            "primary": "Sreenivas - Kyle",
+            "backup": "Naveen - Siva"
+        },
+        {
+            "dt1": "Mar 16",
+            "dt2": "Mar 22",
+            "primary": "Naveen - Siva",
+            "backup": "Mahesh - TBH"
+        },
+        {
+            "dt1": "Mar 23",
+            "dt2": "Mar 29",
+            "primary": "Mahesh - TBH",
+            "backup": "Athira - Priyanka"
+        },
+        {
+            "dt1": "Mar 30",
+            "dt2": "Apr 05",
+            "primary": "Athira - Priyanka",
+            "backup": "Manish - Ankit"
+        }
+    ]
+}

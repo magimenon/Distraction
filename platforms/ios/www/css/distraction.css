@@ -1,0 +1,40 @@
+body {
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+}
+ul {
+ list-style:none;
+}
+ul li {
+     float: left;
+    background-color: #85CA04;
+    padding: 10px; 
+}
+ul.header li {
+    font-weight: bold;
+    padding: 10px;
+}
+ul.distraction-list {
+    clear: left;
+    margin: 0;
+}
+ul.distraction-list li {
+ background-color: #fff;   
+}
+li#date,li.col1 {
+  width:100px;
+}
+li#primary, li#backup,li.col2,li.col3 {
+    width:150px;   
+    text-align: center;
+}
+ul.selected li {
+ background-color: #000;
+    color: #fff;
+}
+#content {
+ clear: left;
+    height: 180px;
+    overflow-x: scroll;
+    width: 505px;
+}
