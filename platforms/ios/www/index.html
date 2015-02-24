@@ -27,15 +27,17 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/distraction.css" />
+       
         <title>Hello World</title>
     </head>
     <body>
         <div class="distraction">
-        
+     <h1>Distraction List</h1>
         <ul class="header">
             <li id="date">Date</li>
-            <li id="primary">Primary Contacts</li>
-            <li id="backup">Backup Contacts</li>
+            <li id="primary">Primary </li>
+            <li id="backup">Backup </li>
         </ul>
         <div id="content">
             <script id="distraction-tmpl" type="text/template">
@@ -46,11 +48,11 @@
                 </ul>
             </script>
         </div>
-        <script src="jquery-1.11.2.min.js"></script>
-        <script src="rangeWeek.js"></script>
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/rangeWeek.js"></script>
         <script>
             jQuery(document).ready(function() {
-                $.getJSON( "distraction.json", function( data ) {
+                $.getJSON( "js/distraction.json", function( data ) {
                        var distractionTmpl = jQuery("#distraction-tmpl").html();
                        for(var i=0;i<data.cnt;i++) {
                            var templ = distractionTmpl.replace(/<%- date %>/g,data.list[i].dt1 + " - " + data.list[i].dt2)

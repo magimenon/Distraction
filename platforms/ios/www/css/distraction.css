@@ -1,18 +1,24 @@
 body {
     font-family: Arial,sans-serif;
-    font-size: 14px;
+    font-size: 1rem;
+    background-color: red;
 }
 ul {
  list-style:none;
+    padding: 0;
+    margin:0;
 }
 ul li {
-     float: left;
+    float: left;
     background-color: #85CA04;
-    padding: 10px; 
+    padding:3% 3% 3% 2%;
+    width:26.3%;
+}
+ul li:first-child {
+    width:110px;
 }
 ul.header li {
     font-weight: bold;
-    padding: 10px;
 }
 ul.distraction-list {
     clear: left;
@@ -21,20 +27,27 @@ ul.distraction-list {
 ul.distraction-list li {
  background-color: #fff;   
 }
-li#date,li.col1 {
-  width:100px;
-}
+
 li#primary, li#backup,li.col2,li.col3 {
-    width:150px;   
     text-align: center;
 }
 ul.selected li {
  background-color: #000;
     color: #fff;
 }
+#content li {
+    height:29px;
+   
+}
 #content {
- clear: left;
-    height: 180px;
+    clear: left;
+    height: 100%;
     overflow-x: scroll;
-    width: 505px;
+}
+h1 {
+    padding-top:15px;
+    background-color:#ccc;
+}
+#content li {
+ font-size: 0.8rem;   
 }

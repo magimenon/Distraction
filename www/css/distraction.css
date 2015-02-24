@@ -11,11 +11,11 @@ ul {
 ul li {
     float: left;
     background-color: #85CA04;
-    padding:3% 3% 3% 2%;
+    padding:3% 3% 3% 1%;
     width:26.3%;
 }
 ul li:first-child {
-    width:103px;
+    width:113px;
 }
 ul.header li {
     font-weight: bold;
